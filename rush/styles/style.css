@@ -1,12 +1,15 @@
 
-body{
+body, html{
 	background:beige;
+	padding:0;
+	margin:0;
 }
 
 .main{
 	width:1000px;
 	height:auto;
 	margin:auto;
+	top: 0px;
 }
 
 .main_header{
@@ -20,7 +23,6 @@ body{
 	width:100px;
 	height:auto;
 }
-
 
 .page_menu{
 	background:cadetblue;
@@ -59,7 +61,6 @@ body{
 	width:1000px;
 	height:1000px;
 	margin:auto;
-	background:gray;
 }
 
 #products_area{

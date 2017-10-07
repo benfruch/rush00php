@@ -1,15 +1,13 @@
+<?PHP
+?>
 <html>
 	<head>
 		<title>Shop 42</title>
 		<link rel="stylesheet" href="styles/style.css">
 	</head>
-
 	<body>
-
 		<div class="main">
-
 			<div class="main_header">
-
 				<img id='image_top' src="images/download.png" />
 				<img id='image_top' src="images/download.png" />
 				<img id='image_top' src="images/download.png" />
@@ -20,9 +18,7 @@
 				<img id='image_top' src="images/download.png" />
 				<img id='image_top' src="images/download.png" />
 				<img id='image_top' src="images/download.png" />
-
 				<div class="page_menu">
-
 					<ul id="menu_d">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Tous les produits</a></li>
@@ -31,28 +27,19 @@
 						<li><a href="#">Ma liste</a></li>
 					</ul>
 				</div>
-
 			</div>
 			<div class="center">
-
 				<div id="left">
-
 					<div id="left_title">Categories</div>
-
 					<ul id="categories">
-
 						<li><a href="#">Auto</a></li>
 						<li><a href="#">Moto</a></li>
 						<li><a href="#">Scooter</a></li>
 						<li><a href="#">Electrique</a></li>
 						<li><a href="#">Trotinettes</a></li>
-
 					</ul>
-
 					<div id="left_title">Marques</div>
-
 					<ul id="categories">
-
 						<li><a href="#">Kya</a></li>
 						<li><a href="#">Peugeot</a></li>
 						<li><a href="#">Bollore</a></li>
@@ -60,7 +47,6 @@
 						<li><a href="#">Citroen</a></li>
 					</ul>
 				</div>
-
 				<div id="products_area">
 
 					<div>

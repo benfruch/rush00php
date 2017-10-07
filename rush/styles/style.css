@@ -172,3 +172,29 @@ text-decoration:underline;}
 	margin: 8px 8px;
 	display: inline-block;
 }
+
+#product_adm{
+	float:left;
+	margin-left:20px;
+	padding:10px;
+	display: inline-block;
+}
+
+#image_adm{
+	text-align:center;
+	width:20px;
+	height:auto;
+}
+
+#image_article_adm{
+	width:200px;
+	height:200px;
+	margin: 2px 2px;
+}
+
+#center_div{
+	float:left;
+	width:10px;
+	height:auto;
+	margin 2px 2px;
+}

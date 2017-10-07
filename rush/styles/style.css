@@ -57,14 +57,14 @@ body{
 
 .center{
 	width:1000px;
-	height:800px;
+	height:1000px;
 	margin:auto;
 	background:gray;
 }
 
 #products_area{
-	width:800px;
-	height:800px;
+	width:850px;
+	height:1100px;
 	float:right;
 	background:lightgray;
 }
@@ -82,9 +82,19 @@ body{
 	padding:10px;
 }
 
+#product_b img{
+width:200px;
+height:200px;
+margin: 2px 2px;
+}
+
+#product_b h1{
+margin:2px 2px;
+}
+
 #left{
-	width:200px;
-	height:800px;
+	width:150px;
+	height:1100px;
 	background:bisque;
 	float:left;
 }
@@ -149,3 +159,5 @@ text-decoration:underline;}
 	font-size:18px;
 	margin: 2px 2px;
 }
+
+#ma_liste:

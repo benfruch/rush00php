@@ -1,4 +1,5 @@
-
+<?PHP
+?>
 <html>
 	<head>
 		<title>Admin</title>
@@ -27,36 +28,81 @@
 
 				<div id="left">
 
-					<div id="left_title">Admin</div>
+					<div id="left_title">Articles</div>
 
 					<ul id="categories">
 
 						<li><a href="#">Ajouter</a></li>
-						<li><a href="#">Articles</a></li>
-						<li><a href="#">Categories</a></li>
-						<li><a href="#">Utilisateurs</a></li>
-						<li><a href="#">Deconnexion</a></li>
-				
+						<li><a href="#">Modifier</a></li>
+						<li><a href="#">Supprimer</a></li>
 
 					</ul>
+
+					<div id="left_title">Categories</div>
+
+					<ul id="categories">
+
+						<li><a href="#">Ajouter</a></li>
+						<li><a href="#">Modifier</a></li>
+						<li><a href="#">Supprimer</a></li>
+					</ul>	
+					
+					<div id="left_title">Utilisateurs</div>
+
+					<ul id="categories">
+
+						<li><a href="#">Ajouter</a></li>
+						<li><a href="#">Modifier</a></li>
+						<li><a href="#">Supprimer</a></li>
+					</ul>	
+				
+				
+					<div id="left_title"><a href="">Deconnexion</a></div>
+
 				</div>
+
 
 				<div id="products_area">
 
 					<div>
+						<form method="POST">
+							<br>
+							<p>Nom du produit : </p>
+							<input id="form_adm" type="text" name="product_name" value="">
+							<br>
+							<p>Lien de l'image : </p>
+							<input id="form_adm" type="text" name="product_name" value="">
+							<br>
+							<p>Prix du produit : </p>
+							<input id="form_adm" type="text" name="product_name" value="">
+							<br>
+							<br>
+							<input type="submit" name="submit" value ="OK">
 
+						</form>
 					</div>
-					<li id="list_adm">Nom : <a href="#">XX</a>  | <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
-					<li id="list_adm">Nom : <a href="#">XX</a>  | <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
-					<li id="list_adm">Nom : <a href="#">XX</a>  | <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
-					<li id="list_adm">Nom : <a href="#">XX</a>  | <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
-					</div>
-
+					
+						<h2>Modifier un produit</h2>
+							<ul>
+								<li id="list_adm"><a href="#">Voiture 1</a></li>
+								<li id="list_adm"><a href="#">Voiture 1</a></li>
+							</ul>
+				
+						<h2>Supprimer un produit</h2>
+							<ul>
+								<li id="list_adm"><a href="#">Voiture 1<a/></li>
+							</ul>
+				
+				
+				
+				
 				</div>
 
-				<div id="footer">© gauffret & bfruchar - 2017</div>
-
 			</div>
+
+			<div id="footer">© gauffret & bfruchar - 2017</div>
+
+		</div>
 
 		</div>
 	</body>

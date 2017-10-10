@@ -45,17 +45,17 @@ if (!mysqli_query($bdd, "INSERT INTO Categories(name, id_Products) VALUES ('Auto
 	echo mysqli_error($bdd)."<br>";
 if (!mysqli_query($bdd, "INSERT INTO Categories(name, id_Products) VALUES ('Moto', '0')"))
 	echo mysqli_error($bdd)."<br>";
-if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('Voiture1', 'Voiture de qualite', 29.99, '/images/car1.jpg')"))
+if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('VoitureOne', 'Voiture de qualite', 129.99, '/images/car1.jpg')"))
 	echo mysqli_error($bdd)."<br>";
 $id_Products = mysqli_insert_id($bdd);
 if (!mysqli_query($bdd, "INSERT INTO Categories(name, id_Products) VALUES ('Auto', '$id_Products')"))
 	echo mysqli_error($bdd)."<br>";
-if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('Voiturtre2', 'Voiture de qualite moyenne', 29.99, '/images/car2.jpg')"))
+if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('VoitureTwo', 'Voiture de qualite moyenne', 59.99, '/images/car2.jpg')"))
 	echo mysqli_error($bdd)."<br>";
 $id_Products = mysqli_insert_id($bdd);
 if (!mysqli_query($bdd, "INSERT INTO Categories(name, id_Products) VALUES ('Moto', '$id_Products')"))
 	echo mysqli_error($bdd)."<br>";
-if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('Voiturpre3', 'Voiture de qualite bof', 29.99, '/images/car3.jpg')"))
+if (!mysqli_query($bdd, "INSERT INTO Products(name, description, price, image) VALUES ('VoitureThree', 'Voiture de qualite inferieure', 29.99, '/images/car3.jpg')"))
 	echo mysqli_error($bdd)."<br>";
 $id_Products = mysqli_insert_id($bdd);
 if (!mysqli_query($bdd, "INSERT INTO Categories(name, id_Products) VALUES ('Moto', '$id_Products')"))

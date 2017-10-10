@@ -1,2 +1,2 @@
-Rush 00 durant la piscine PHP de 42
+Rush 00 durant la piscine PHP de 42 \n
 Obj : Faire un site de e-commerce en un weekend-end

@@ -7,7 +7,7 @@ function verif_string($str){
 			return (false);
 	else
 	  return true;
-
+}
 function verif_num($str){
 	preg_match("/^([0-9])$/",$str,$result);
 	if(!empty($result)){

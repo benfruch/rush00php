@@ -1,0 +1,191 @@
+body{
+	background:beige;
+	padding:0;
+	margin:0;
+}
+
+.main{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+
+.main_header{
+	width:1000px;
+	height:150px;
+	margin:auto;
+}
+
+#image_top{
+	float:left;
+	width:100px;
+	height:auto;
+}
+
+
+.page_menu{
+	background:cadetblue;
+	width:1000px;
+	height:150px;
+}
+
+#menu_d{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float:left;
+}
+
+#menu_d li{
+	list-style:none;
+	display:inline;
+}
+
+#menu_d a{
+	text-decoration:none;
+	padding:20px;
+	margin:5px;
+	font-size:18px;
+	color: white;
+}
+
+#menu_d .actual_page{
+	color:royalblue;
+}
+
+#menu_d a:hover{
+	color:coral;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+.center{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:bisque;
+}
+
+#products_area{
+	width:850px;
+	height:auto;
+	min-height:600px;
+	float:right;
+	background:lightgray;
+}
+
+#products{
+	width:800px;
+	text-align:center;
+	margin-left:25px;
+	margin-bottom:5px;
+}
+
+#product_b{
+	float:left;
+	margin-left:20px;
+	padding:10px;
+}
+
+#product_b img{
+	width:200px;
+	height:200px;
+	margin: 2px 2px;
+}
+
+#product_b h1{
+	margin:2px 2px;
+}
+
+#left{
+	width:150px;
+	height:auto;
+	min-height:600px;
+	background:bisque;
+	float:left;
+}
+
+#left_title{
+	background:white;
+	color:black;
+	font-size:22px;
+	padding:10px;
+	text-align:center;
+}
+
+#categories{
+	text-align:center;
+	padding:10px;
+}
+
+#categories li{
+	list-style:none; 
+	margin:5px;
+}
+
+
+#categories a{
+	color:black;
+	text-align:center; 
+	font-size:21px; 
+	text-decoration:none;
+}
+
+#categories a:hover{
+	color:orange; 
+	font-weight:bolder; 
+	text-decoration:underline;}
+
+#footer{
+	width:1000px;
+	height:50px;
+	background:cadetblue;
+	clear:both;
+	text-align:center;
+	padding:20px 0;
+}
+
+.button {
+	background-color: limegreen;
+	border: none;
+	color: white;
+	padding: 3px 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 8px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.plus_infos{
+	text-decoration:none;
+	font-size:12px;
+}
+
+.price{
+	font-size:18px;
+	margin: 2px 2px;
+}
+
+#list_adm{
+	list-style:none;
+	margin:5px;
+}
+
+#product_adm{
+	float:left;
+	margin-left:20px;
+	padding:10px;
+	display: inline-block;
+}
+#image_adm{
+	text-align:center;
+	width:20px;
+	height:auto;
+}
+#image_article_adm{
+	width:200px;
+	height:200px;
+	margin: 2px 2px;
+}
